@@ -1,0 +1,117 @@
+# C++ objects and libs
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# Qt-es
+object_script.*.Release
+object_script.*.Debug
+*_plugin_import.cpp
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+*.qm
+*.prl
+
+# Qt unit tests
+target_wrapper.*
+
+# QtCreator
+*.autosave
+
+# QtCreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+# QtCreator CMake
+CMakeLists.txt.user*
+
+# QtCreator 4.8< compilation database
+compile_commands.json
+
+# QtCreator local machine specific files for imported projects
+*creator.user*
+
+*_qmlcache.qrc
+
+#self_defined:
+build/
+release/
+debug/
+.qtc_clangd/
+.qmake.stash
+
+
+#C#:
+# Visual Studio相关文件
+.vs/
+*.sln.ide
+*.sln.docstates
+
+# 编译输出
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.appx
+*.appxbundle
+*.appxupload
+
+# NuGet包
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+
+# Visual Studio Code相关文件
+.vscode/
+
+# Rider相关文件
+.idea/
+
+# 生成的文件
+*.user
+*.suo
+*.userprefs
+*.sln.cache
+
+# 其他不需要的文件
+*.log
+*.tmp
+*.cache
+*.zip
+*.rar
+*.tar.gz
+*.tar
+
+# 个人设置文件
+*.dbmdl
+*.dbproj.schemaview
+*.dbproj
+
+# 其他
+*.class
+*.jar
+*.war
+*.swp
+*.bak
